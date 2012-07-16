@@ -3,7 +3,7 @@ queue-process
 
 Threaded queue client based on Redis.
 
-Redis client reconnectz automaticaly if connection error.
+Redis client reconnects automaticaly if connection error.
 
 Requrements
 =============
