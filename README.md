@@ -1,13 +1,16 @@
 queue-process
 =============
 
-Threaded queue client based on Redis
+Threaded queue client based on Redis.
+
+Redis client reconnectz automaticaly if connection error.
 
 Requrements
 =============
 
 1. boost
-2. cmake
+2. redis
+3. cmake
 
 Compile
 =============
