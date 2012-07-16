@@ -14,4 +14,4 @@ include_directories (.)
 
 add_executable(boost-forwarder main.cpp anet.cpp )
 
-target_link_libraries(boost-forwarder stdc++ pthread boost_thread zmq)
+target_link_libraries(boost-forwarder stdc++ pthread boost_thread)
